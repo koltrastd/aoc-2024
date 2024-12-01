@@ -2,14 +2,14 @@
 
 import re
 
-file=open("input.txt","r")
-
 # Declare lists/dicts
 list1=[]
 list2=[]
 list_diff=[]
 dict_similar={}
 score_list=[]
+
+file=open("input.txt","r")
 
 # Populate lists
 lines=file.readlines()
