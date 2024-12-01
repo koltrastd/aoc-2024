@@ -18,6 +18,8 @@ for line in lines:
   list1.append(int(groups.group(1)))
   list2.append(int(groups.group(2)))
 
+file.close()
+
 list1.sort()
 list2.sort()
 
